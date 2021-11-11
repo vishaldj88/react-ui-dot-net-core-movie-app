@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CinemaApi</name>
+    </assembly>
+    <members>
+        <member name="T:CinemaApi.Repository.ICinemaRepository">
+            <summary>>
+            Movie Repository
+            </summary>
+        </member>
+    </members>
+</doc>

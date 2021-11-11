@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Movie.Api</name>
+    </assembly>
+    <members>
+        <member name="M:CinemaProxy.ICinemaClient.CinemaAllAsync(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <returns>Success</returns>
+            <exception cref="T:CinemaProxy.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:CinemaProxy.ICinemaClient.CinemaAllAsync(System.Nullable{System.Int32},System.Nullable{System.Int32},System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <returns>Success</returns>
+            <exception cref="T:CinemaProxy.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:CinemaProxy.ICinemaClient.CinemaPOSTAsync(CinemaProxy.CinemaModel)">
+            <returns>Success</returns>
+            <exception cref="T:CinemaProxy.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:CinemaProxy.ICinemaClient.CinemaPOSTAsync(CinemaProxy.CinemaModel,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <returns>Success</returns>
+            <exception cref="T:CinemaProxy.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:CinemaProxy.ICinemaClient.GetAsync(System.Int32)">
+            <returns>Success</returns>
+            <exception cref="T:CinemaProxy.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:CinemaProxy.ICinemaClient.GetAsync(System.Int32,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <returns>Success</returns>
+            <exception cref="T:CinemaProxy.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:CinemaProxy.ICinemaClient.CinemaPUTAsync(System.Int32,CinemaProxy.CinemaModel)">
+            <returns>Success</returns>
+            <exception cref="T:CinemaProxy.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:CinemaProxy.ICinemaClient.CinemaPUTAsync(System.Int32,CinemaProxy.CinemaModel,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <returns>Success</returns>
+            <exception cref="T:CinemaProxy.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:CinemaProxy.ICinemaClient.CinemaDELETEAsync(System.Int32)">
+            <returns>Success</returns>
+            <exception cref="T:CinemaProxy.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:CinemaProxy.ICinemaClient.CinemaDELETEAsync(System.Int32,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <returns>Success</returns>
+            <exception cref="T:CinemaProxy.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:CinemaProxy.CinemaClient.CinemaAllAsync(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <returns>Success</returns>
+            <exception cref="T:CinemaProxy.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:CinemaProxy.CinemaClient.CinemaAllAsync(System.Nullable{System.Int32},System.Nullable{System.Int32},System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <returns>Success</returns>
+            <exception cref="T:CinemaProxy.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:CinemaProxy.CinemaClient.CinemaPOSTAsync(CinemaProxy.CinemaModel)">
+            <returns>Success</returns>
+            <exception cref="T:CinemaProxy.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:CinemaProxy.CinemaClient.CinemaPOSTAsync(CinemaProxy.CinemaModel,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <returns>Success</returns>
+            <exception cref="T:CinemaProxy.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:CinemaProxy.CinemaClient.GetAsync(System.Int32)">
+            <returns>Success</returns>
+            <exception cref="T:CinemaProxy.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:CinemaProxy.CinemaClient.GetAsync(System.Int32,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <returns>Success</returns>
+            <exception cref="T:CinemaProxy.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:CinemaProxy.CinemaClient.CinemaPUTAsync(System.Int32,CinemaProxy.CinemaModel)">
+            <returns>Success</returns>
+            <exception cref="T:CinemaProxy.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:CinemaProxy.CinemaClient.CinemaPUTAsync(System.Int32,CinemaProxy.CinemaModel,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <returns>Success</returns>
+            <exception cref="T:CinemaProxy.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:CinemaProxy.CinemaClient.CinemaDELETEAsync(System.Int32)">
+            <returns>Success</returns>
+            <exception cref="T:CinemaProxy.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:CinemaProxy.CinemaClient.CinemaDELETEAsync(System.Int32,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <returns>Success</returns>
+            <exception cref="T:CinemaProxy.ApiException">A server side error occurred.</exception>
+        </member>
+    </members>
+</doc>
